@@ -1,0 +1,20 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 1.67812752723552E+15,"dur": 6135815, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 1.67812752724961E+15,"dur": 111091, "ph":"X", "name": "Preprocess Player"},
+{ "pid": "Unity", "tid": 1,"ts": 1.67812752742817E+15,"dur": 5907683, "ph":"X", "name": "Prepare For Build"},
+{}
+
+],
+"meta_datetime": "03/06/2023 20:32:13",
+"meta_command_line": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.17f1\\Editor\\Unity.exe\" -projectpath \"D:\\\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u0438\u0440\u0430\u043d\u0435 1\\Racing dogs\" -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-pc -hubSessionId 390cd040-b857-11ed-a09d-6b1ff7b4550e -accessToken J8tFyMnZdWBcslzv7foptaBKQNziZQTMQI41PWMvxos007f -projectpath D:\\\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u0438\u0440\u0430\u043d\u0435 1\\Racing dogs -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-pc -hubSessionId 390cd040-b857-11ed-a09d-6b1ff7b4550e -accessToken hq4M1tbCYh16URRhZgFAyY9UqtYolru1CyG2R_mNqy0007f",
+"meta_command_line_args": "C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.17f1\\Editor\\Unity.exe -projectpath D:\\\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u0438\u0440\u0430\u043d\u0435 1\\Racing dogs -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-pc -hubSessionId 390cd040-b857-11ed-a09d-6b1ff7b4550e -accessToken J8tFyMnZdWBcslzv7foptaBKQNziZQTMQI41PWMvxos007f -projectpath D:\\\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u0438\u0440\u0430\u043d\u0435 1\\Racing dogs -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-pc -hubSessionId 390cd040-b857-11ed-a09d-6b1ff7b4550e -accessToken hq4M1tbCYh16URRhZgFAyY9UqtYolru1CyG2R_mNqy0007f",
+"meta_user_name": "pc",
+"meta_os_version": "Microsoft Windows NT 10.0.19045.0",
+"meta_cpu_count": "16"
+}
